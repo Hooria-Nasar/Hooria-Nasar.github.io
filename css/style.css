@@ -107,6 +107,9 @@ ol {
 	margin: 0;
 }
 
+
+
+
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -300,12 +303,15 @@ ol {
 -----------------------*/
 
 .header {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: 9;
-	padding: 30px 0 0;
+	padding: 30px  0 20px;
+   
+	background-color: #101010;
+	transition: top 0.3s;
 }
 
 .header.header-normal {
@@ -319,6 +325,7 @@ ol {
 
 .header__menu {
 	text-align: center;
+	color:  #101010
 }
 
 .header__menu ul li {
@@ -1545,6 +1552,7 @@ ol {
 
 .about__pic {
 	padding-left: 34px;
+	margin-top: 100px;
 }
 
 .about__pic__inner {
@@ -2499,7 +2507,7 @@ ol {
 }
 
 .contact__widget__item__text span {
-	color: #111111;
+	color: #ffffff;
 	display: block;
 }
 
