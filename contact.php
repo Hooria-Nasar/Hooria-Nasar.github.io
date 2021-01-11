@@ -7,7 +7,7 @@
     <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Staging | Template</title>
+    <title>Learning Hub</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
@@ -33,7 +33,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/lhh.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget">
@@ -49,7 +49,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
+                        <a href="#"><img src="img/lhh.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -74,7 +74,7 @@
                 <div class="col-lg-3">
                     <div class="header__widget">
                         <span>Call us for any questions</span>
-                        <h4>+01 123 456 789</h4>
+                        <h4>+92 343 378 3377</h4>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h5>Phone Number</h5>
-                            <span>+01 123 456 789</span>
+                            <span>+92 343 378 3377</span>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h5>Email Address</h5>
-                            <span>info.colorlib@gmail.com</span>
+                            <span>info@learninghub.pk</span>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                         </div>
                         <div class="contact__widget__item__text">
                             <h5>Office Location</h5>
-                            <span>7176 Blue Spring Lane, NY, US</span>
+                            <span>69-DD Commercial Phase 4 DHA Lahore, 54810 Pakistan</span>
                         </div>
                     </div>
                 </div>
@@ -154,17 +154,17 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact__form">
-                        <form action="#">
+                        <form action="contactform.php" method="Post">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Name" name="name">
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" placeholder="Email" name="email">
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea placeholder="Message"></textarea>
-                                    <button type="submit" class="site-btn">Send Message</button>
+                                    <textarea placeholder="Message" name="Message"></textarea>
+                                    <button type="submit" class="site-btn" name="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -176,7 +176,7 @@
     <!-- Contact Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+   <!--  <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
         <div class="container">
             <div class="footer__top">
                 <div class="row">
@@ -269,7 +269,171 @@
             </div>
         </div>
     </div>
+</footer> -->
+
+
+ <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <!-- <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="footer__top__text">
+                            <h2>Ready To Work With Us?</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer__top__newslatter">
+                            <form action="#">
+                                <input type="text" placeholder="Enter your email...">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/lh-white.png" alt=""></a>
+                        </div>
+                        <p> 69-DD Commercial Phase 4<br /> DHA Lahore, 54810 Pakistan </p>
+                        <ul>
+                            <li>info@learninghub.pk</li>
+                            <li> +92 343 378 3377</li>
+                        </ul>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/LearningHubPvtLimited.pk"><i class="fa fa-facebook"></i></a>
+                          
+                            <a href="https://www.instagram.com/learning_hub_pk/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/learninghubpk/"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Our Works</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Services</h6>
+                        <ul>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Interior Design</a></li>
+                            <li><a href="#">Exterior Design</a></li>
+                            <li><a href="#">Planning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__address">
+                        <h6>Get In Touch</h6>
+                        <p>69-DD Commercial Phase 4 <br />DHA Lahore, 54810 Pakistan</p>
+                        <ul>
+                            <li>info@learninghub.pk</li>
+                            <li>+92 343 378 3377</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+<div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="contact__widget__item">
+                        <div class="contact__widget__item__icon">
+                            <img src="img/contact/ci-1.png" alt="">
+                        </div>
+                        <div class="contact__widget__item__text">
+                            <h5>Phone Number</h5>
+                            <span>+92 343 378 3377</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="contact__widget__item">
+                        <div class="contact__widget__item__icon">
+                            <img src="img/contact/ci-2.png" alt="">
+                        </div>
+                        <div class="contact__widget__item__text">
+                            <h5>Email Address</h5>
+                            <span>info@learninghub.pk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="contact__widget__item last__item">
+                        <div class="contact__widget__item__icon">
+                            <img src="img/contact/ci-3.png" alt="">
+                        </div>
+                        <div class="contact__widget__item__text">
+                            <h5>Office Location</h5>
+                            <span>69-DD Commercial Phase 4 DHA Lahore, 54810 Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="copyright">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7">
+                        <div class="copyright__text">
+                            <p>Copyright © <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com"
+                            target="_blank">Colorlib</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="copyright__widget">
+                        <a href="#">Terms of use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="copyright">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7">
+                        <div class="copyright__text">
+                            <p>Copyright ©
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>2021 All rights reserved | This template is owned by <a href="https://colorlib.com" target="_blank">Learning
+                                    Hub Pvt Limited</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--  <div class="col-lg-4 col-md-5">
+                        <div class="copyright__widget">
+                            <a href="#">Terms of use</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+    </div>
 </footer>
+
+
+
+
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->

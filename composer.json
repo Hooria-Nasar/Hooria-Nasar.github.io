@@ -1,0 +1,14 @@
+{
+    "name": "a/staging",
+    "authors": [
+        {
+            "name": "Hooria-Nasar",
+            "email": "lhnew38@gmail.com"
+        }
+    ],
+    "require": {  
+"vlucas/phpdotenv": "^5.2",
+"phpmailer/phpmailer":"^6.2"
+
+    }
+}

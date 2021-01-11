@@ -232,7 +232,7 @@ ol {
 .site-btn {
 	font-size: 16px;
 	color: #ffffff;
-	background: #dfa667;
+	background: #626262;
 	font-weight: 600;
 	border: none;
 	display: inline-block;
@@ -320,7 +320,7 @@ ol {
 }
 
 .header.header-normal {
-	position: relative;
+	position: fixed;
 	padding: 30px 0 30px;
 }
 
@@ -440,7 +440,7 @@ ol {
 
 .header__widget h4 {
 	font-size: 22px;
-	color: #dfa667;
+	color:  #b7b7b7;
 }
 
 .offcanvas-menu-wrapper {
@@ -1085,7 +1085,7 @@ ol {
 
 .callto__text span {
 	font-size: 16px;
-	color: #111111;
+	color: #ffffff;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1095,7 +1095,7 @@ ol {
 
 .callto__text h2 {
 	font-size: 42px;
-	color: #111111;
+	color: #ffffff;
 	line-height: 52px;
 	text-transform: uppercase;
 	margin-bottom: 36px;
@@ -2518,7 +2518,7 @@ ol {
 }
 
 .contact__widget__item__text span {
-	color: #ffffff;
+	color:#626262;
 	display: block;
 }
 
