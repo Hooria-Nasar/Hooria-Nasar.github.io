@@ -56,9 +56,10 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="./index.html">Home</a></li>
-                            <li><a href="./projects.html">Projects</a></li>
+                          <!--   <li><a href="./projects.html">Projects</a></li> -->
                             <li><a href="./about.html">About</a></li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="./services.html">Services</a></li>
+                           <!--  <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="./Project-details.html">Project Details</a></li>
                                     <li><a href="./about.html">About</a></li>
@@ -66,8 +67,8 @@
                                     <li><a href="./blog-details.html">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li class="active"><a href="./contact.html">Contact</a></li>
+                            <li><a href="./blog.html">Blog</a></li> -->
+                            <li class="active"><a href="./contact.php">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
