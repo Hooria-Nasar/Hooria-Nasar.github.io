@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Staging Template">
+    <meta name="description" content="Learning Hub">
     <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,9 +25,9 @@
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
+ <!--    <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div> -->
 
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
@@ -38,7 +38,7 @@
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget">
             <span>Call us for any questions</span>
-            <h4>+01 123 456 789</h4>
+            <h4>+92 343 378 3377</h4>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -415,7 +415,7 @@
                             <p>Copyright ©
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script>2021 All rights reserved | This template is owned by <a href="https://colorlib.com" target="_blank">Learning
+                                </script>All rights reserved | This template is owned by<!--  <a href="https://colorlib.com" target="_blank"> -->Learning
                                     Hub Pvt Limited</a>
                             </p>
                         </div>
