@@ -44,7 +44,7 @@
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header header-normal set-bg" data-setbg="img/little-header.jpg">
+    <header class="header" >
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
@@ -94,8 +94,8 @@
                             <span>Information</span>
                             <h2>Contact Details</h2>
                         </div>
-                        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
-                        attention.</p>
+                        <!-- <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                        attention.</p> -->
                     </div>
                 </div>
             </div>
@@ -147,8 +147,8 @@
                             <span>Form</span>
                             <h2>Get in touch</h2>
                         </div>
-                        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
-                        attention.</p>
+                        <!-- <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                        attention.</p> -->
                     </div>
                 </div>
             </div>
